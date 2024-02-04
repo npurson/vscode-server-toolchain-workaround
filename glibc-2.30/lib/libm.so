@@ -1,0 +1,4 @@
+/* GNU ld script
+*/
+OUTPUT_FORMAT(elf64-x86-64)
+GROUP ( /swwork/hbcc/commontools/glibc/2.30/lib/libm.so.6  AS_NEEDED ( /swwork/hbcc/commontools/glibc/2.30/lib/libmvec_nonshared.a /swwork/hbcc/commontools/glibc/2.30/lib/libmvec.so.1 ) )

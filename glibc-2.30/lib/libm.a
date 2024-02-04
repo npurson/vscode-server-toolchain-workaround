@@ -1,0 +1,4 @@
+/* GNU ld script
+*/
+OUTPUT_FORMAT(elf64-x86-64)
+GROUP ( /swwork/hbcc/commontools/glibc/2.30/lib/libm-2.30.a /swwork/hbcc/commontools/glibc/2.30/lib/libmvec.a )
